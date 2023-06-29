@@ -1,0 +1,33 @@
+#cover {
+    background-image: url('img/home-background.png');
+    background-size: cover;
+    border-radius: 20px;
+}
+
+nav{
+    height: 80px;
+
+}
+
+.jumbotron{
+    color: white;
+}
+
+.search {
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 1196px) {
+    #jumbotron h1 {
+        font-size: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 950px) {
+      #jumbotron h1{
+          font-size: 25px
+      }
+      #jumbotron p{
+          font-size: 15px !important;
+      }
+}
